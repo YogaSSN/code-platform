@@ -1,0 +1,22 @@
+{
+    "MAE": 4.360519238356844,
+    "R2_Score": 0.8726688028381566,
+    "Validation_Results": "Passed",
+    "Feature_Importance": {
+        "problems_solved": 0.8375633596341798,
+        "easy_solved": 0.006158123133684467,
+        "medium_solved": 0.009635541356896649,
+        "hard_solved": 0.02085215473938032,
+        "arrays_count": 0.00565091431143066,
+        "strings_count": 0.008007523653200618,
+        "graphs_count": 0.009466812107785915,
+        "dp_count": 0.009987752733547775,
+        "trees_count": 0.004560797175064858,
+        "contest_rating": 0.04724408530103936,
+        "contest_count": 0.004593594051146859,
+        "acceptance_rate": 0.012954007447571268,
+        "current_streak": 0.004494182752542599,
+        "room_participations": 0.005590066143719861,
+        "room_wins": 0.01324108545880891
+    }
+}
