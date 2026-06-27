@@ -8,7 +8,7 @@ import { Problem, ExecutionResult } from '../../types';
 import { codeExecutionService } from '../../services/execution';
 import { authService } from '../../services/auth';
 import Editor from '@monaco-editor/react';
-import { Play, Send, ChevronLeft, Swords, Trophy, Copy, CheckCircle2, Clock, Flag, Wifi, WifiOff, AlertTriangle } from 'lucide-react';
+import { Play, Send, ChevronLeft, Swords, Trophy, Copy, CheckCircle2, Clock, Flag, Wifi, WifiOff, AlertTriangle, Loader2 } from 'lucide-react';
 import Navbar from '../../components/Navbar';
 
 const ALL_LANGUAGES = ['python', 'java', 'c', 'cpp', 'javascript', 'typescript', 'go', 'rust', 'php', 'kotlin', 'csharp', 'ruby'];

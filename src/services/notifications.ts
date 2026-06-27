@@ -22,7 +22,7 @@ export class SupabaseNotificationService implements NotificationService {
     return (data || []).map((n: any) => ({
       id: n.id,
       userId: n.user_id,
-      type: 'INFO', // the schema didn't store type explicitly but ui relies on it, fallback
+      type: 'ANNOUNCEMENT', // the schema didn't store type explicitly but ui relies on it, fallback
       title: n.title,
       message: n.message,
       read: n.is_read,

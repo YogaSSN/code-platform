@@ -23,7 +23,7 @@ const Leaderboard: React.FC = () => {
           id: `mock-${i}`,
           username: realisticNames[i % realisticNames.length],
           email: `student${i}@example.com`,
-          role: 'user' as const,
+          role: 'STUDENT' as const,
           createdAt: new Date().toISOString(),
           solvedProblems: Array.from({length: Math.floor(Math.random() * 50) + 10}).map(() => 'x'),
           contestRating: 1400 + Math.floor(Math.random() * 800),
